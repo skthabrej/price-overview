@@ -5,9 +5,10 @@ class ReviewsCarousel extends Component {
   state = {count: 0}
 
   onIncrement = () => {
-    const {count} = this.state 
-    if (count < 3) {
-      this.setState(prevState => ({count: prevState.count + 1}))
+    const {count} = this.state
+    const {reviewsData} = this.props
+    if (count < reviewsData.length-1) {
+      this.setState(prevState => ({count:prevState.count+1}))
     }
   }
 
@@ -25,7 +26,7 @@ class ReviewsCarousel extends Component {
     return (
       <div className="bg-container">
         <div className='card'>
-          <h1 className="heading-1">B r a n d s</h1>
+          <h1 className="heading">B R A N D||S T O R E</h1>
           <div className="img-person">
             <img className="img-style" src={imgUrl} alt={Price}/>
           </div>

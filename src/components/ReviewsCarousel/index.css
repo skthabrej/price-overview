@@ -8,11 +8,11 @@
     align-items: center;
   }
   
-  .heading-1 {
-    color: #080808;
+  .heading {
+    color: #ffffff;
     font-family: 'Roboto';
     text-align: center;
-    text-shadow: 2px 2px 4px #ffffff; 
+    text-shadow: 2px 2px 4px #000000; 
   }
   
   .img-style {
@@ -62,6 +62,7 @@
     font-family: 'Roboto';
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
   }
   
   .btn-style {
@@ -74,4 +75,5 @@
     border-radius: 40px;
     height: 60vh;
     width: 60vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
