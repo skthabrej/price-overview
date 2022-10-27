@@ -33,11 +33,11 @@ class ReviewsCarousel extends Component {
           <div className="img-person">
             <div className="arrows-content-container">
               <button type="button" className="btn-style" onClick={this.onDecrement} testid="leftArrow">
-                <img className="img-arrows" src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png" alt="left-arrow"/>
+                <img className="img-arrows" src="https://i.postimg.cc/xdGQPJQn/app-g4618b633c-1920.png" alt="left-arrow"/>
               </button>
               <p className="price-name">{Price}</p>
               <button type="button" className="btn-style" onClick={this.onIncrement} testid="rightArrow">
-                <img className="img-arrows" src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png" alt="right-arrow"/>
+                <img className="img-arrows" src="https://i.postimg.cc/Zn4Cct2D/app-gba1b885a6-1920.png" alt="right-arrow"/>
               </button>
             </div>
           </div>
